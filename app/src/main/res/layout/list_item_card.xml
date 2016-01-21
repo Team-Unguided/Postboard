@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="15dp"
+	android:paddingRight="15dp"
+	android:descendantFocusability="beforeDescendants">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dp"
+		android:paddingTop="15dp"
+		android:paddingBottom="15dp"
+		android:paddingRight="15dp"
+		android:background="@drawable/selector_card_background"
+		android:descendantFocusability="afterDescendants">
+
+        <TextView
+			android:id="@+id/text1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Text line 1"/>
+
+		<TextView
+			android:id="@+id/text2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Text line 2"/>
+
+		<TextView
+			android:id="@+id/text3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Text line 3"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more_vert_black_24dp"
+        android:contentDescription="@string/descr_overflow_button"
+        android:onClick="showPopup"
+        android:layout_gravity="right|top" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!-- ... XML CODE -->
+        <com.gc.materialdesign.views.ButtonFloat
+            android:id="@+id/buttonFloat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="7dp"
+            android:background="#ff4081"
+            materialdesign:animate="true"
+            materialdesign:iconDrawable="@drawable/ic_action_new" />
+    </RelativeLayout>
+
+</FrameLayout>
