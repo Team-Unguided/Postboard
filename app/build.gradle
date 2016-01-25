@@ -36,9 +36,4 @@ dependencies {
     compile 'com.github.gabrielemariotti.cards:cardslib-recyclerview:2.1.0'
     compile 'com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0'
     compile 'com.github.gabrielemariotti.cards:cardslib-extra-dragdrop:2.1.0'
-<<<<<<< HEAD
-    compile 'com.kyleduo.switchbutton:library:1.2.10'
-    compile 'com.github.moraisigor:slidingdrawer:1.5.5'
-=======
->>>>>>> parent of b22f6b0... waaaaaa ;______;
 }
